@@ -18,7 +18,7 @@ int main() {
     vector<int> vectorA = {1, 3, -5};
     vector<int> vectorB = {4, -2, -1};
 
-    int result = dotProduct(vectorA, vectorB);
-    cout << "Dot product: " << result << endl; // Output: Dot product: 3
-    return 0;
+    int result= dotProduct(vectorA, vectorB);
+    cout << "Dot product is : " << result<< endl; // Output: Dot product: 3
+    return 0; 
 }
